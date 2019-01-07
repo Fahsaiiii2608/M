@@ -916,7 +916,7 @@ def lineBot(op):
                     line.sendContact(to, lineMID)
                 elif text.lower() == 'ผส':
                     sendMessageWithMention(to, lineMID)
-                    line.sendContact(to, "ub65037fce83ce14909759e3a932182c9")
+                    line.sendContact(to, "u42465e675d3eaf98312c2a9a418b3ba2")
                 elif text.lower() == 'มิด':
                     line.sendMessage(msg.to,"[MID]\n" +  lineMID)
                 elif text.lower() == 'ชื่อ':
@@ -3172,7 +3172,7 @@ def lineBot(op):
                     for ids in kontak:
                         msgs+="\n[%i] %s" % (num, ids.displayName)
                         num=(num+1)
-                    msgs+="\n🇹🇭⍣ᎢᎬᎪᎷᏴᎾᎢ⅌ᎷᎫ⍣🇹🇭\n\nTotal Teman : %i" % len(kontak)
+                    msgs+="\n🇹🇭⍣ᎢᎬᎪᎷᏴᎾᎢ⅌F∀Ħ⍣🇹🇭\n\nTotal Teman : %i" % len(kontak)
                     line.sendMessage(msg.to, msgs)
 
                 elif msg.text in ["Blocklist"]: 
